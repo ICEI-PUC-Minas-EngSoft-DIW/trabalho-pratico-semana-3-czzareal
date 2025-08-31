@@ -43,3 +43,46 @@ header {
     background-color: #000;
     color: #fff;
 }
+/* Filtros */
+.filtros {
+    text-align: center;
+    margin: 20px;
+}
+
+.filtros-opcoes label {
+    margin-right: 5px;
+}
+
+.filtros-opcoes select {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #fff;
+    background: #000;
+    color: #fff;
+}
+
+/* Lista de fornecedores */
+.fornecedores {
+    margin: 30px;
+}
+
+.fornecedor {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.fornecedor img {
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
