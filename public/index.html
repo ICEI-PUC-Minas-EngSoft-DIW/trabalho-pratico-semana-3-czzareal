@@ -1,12 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FORNECE BUSCA</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Formulário de busca -->
+        <section class="busca">
+            <form>
+                <input type="text" placeholder="Digite cidade/local">
+                <select>
+                    <option>Selecione tipo de produto</option>
+                    <option>Insumos</option>
+                    <option>EPI</option>
+                    <option>Elétrica</option>
+                </select>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <!-- Filtros -->
+        <section class="filtros">
+            <h2>Filtros</h2>
+            <div class="filtros-opcoes">
+                <label>Avaliação:</label>
+                <select>
+                    <option>1 estrela</option>
+                    <option>2 estrelas</option>
+                    <option>3 estrelas</option>
+                    <option>4 estrelas</option>
+                    <option>5 estrelas</option>
+                </select>
+
+                <label>Preço:</label>
+                <select>
+                    <option>Até 1000</option>
+                    <option>1000 - 1500</option>
+                    <option>1500 - 2000</option>
+                </select>
+
+                <label>Distância:</label>
+                <select>
+                    <option>1km</option>
+                    <option>5km</option>
+                    <option>10km</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Lista de fornecedores -->
+        <section class="fornecedores">
+            <h2>Lista de Fornecedores</h2>
+
+            <article class="fornecedor">
+                <img src="https://picsum.photos/id/1/100/100" alt="Logo ConstruFácil">
+                <div>
+                    <p><strong>FORNECEDOR A</strong></p>
+                    <p>Local: BH </p>
+                    <p>Tipo: Elétrica</p>
+                    <p>Avaliação: ★★★★☆</p>
+                    <p>Contato: </p>
+                </div>
+            </article>
+
+            <article class="fornecedor">
+                <img src="https://picsum.photos/id/20/100/100" alt="Logo InsumosBH">
+                <div>
+                    <p><strong>FORNECEDOR B</strong></p>
+                    <p>Local: BH</p>
+                    <p>Tipo: Insumos</p>
+                    <p>Avaliação: ★★★☆☆</p>
+                    <p>Contato: </p>
+                </div>
+            </article>
+
+            <article class="fornecedor">
+                <img src="https://picsum.photos/id/30/100/100" alt="Logo SegurançaTotal">
+                <div>
+                    <p><strong>FORNECEDOR C</strong></p>
+                    <p>Local: BH </p>
+                    <p>Tipo: EPI</p>
+                    <p>Avaliação: ★★★★☆</p>
+                    <p>Contato: </p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2025 FORNECE BUSCA - Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
